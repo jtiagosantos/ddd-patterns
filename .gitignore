@@ -1,0 +1,10 @@
+# compiled output
+build
+dist
+node_modules
+
+# OS
+.DS_Store
+
+# dotenv environment variable files
+.env
