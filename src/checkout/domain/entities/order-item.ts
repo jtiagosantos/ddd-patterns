@@ -39,6 +39,10 @@ export class OrderItem {
     return this._productId;
   }
 
+  set quantity(value: number) {
+    this._quantity = value;
+  }
+
   total(): number {
     return this._price * this._quantity;
   }
